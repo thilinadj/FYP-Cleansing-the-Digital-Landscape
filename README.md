@@ -20,11 +20,11 @@ pip freeze > requirements.txt
 ```
 
 ## Install dependencies
-```
+```bash or cmd
 pip install -r requirements.txt
 ```
 
 ## Deactivate the venv
-```
+```bash or cmd
 deactivate
 ```
