@@ -19,6 +19,11 @@ source .venv/Scripts/activate
 pip freeze > requirements.txt
 ```
 
+## Update dependencies which are in use
+```bash or cmd
+pipreqs --force
+```
+
 ## Install dependencies
 ```bash or cmd
 pip install -r requirements.txt
