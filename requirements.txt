@@ -1,4 +1,4 @@
-aiohttp==3.9.4
+aiohttp==3.9.5
 aiosignal==1.3.1
 asttokens==2.4.1
 async-timeout==4.0.3
@@ -7,18 +7,17 @@ audioread==3.0.1
 certifi==2024.2.2
 cffi==1.16.0
 charset-normalizer==3.3.2
-click==8.1.7
 colorama==0.4.6
 comm==0.2.2
-datasets @ git+https://github.com/huggingface/datasets.git@0f1f27c69f6cc8d085b66a8a2ba0440a39bc5bce
+datasets==2.18.0
 debugpy==1.8.1
-decorator==4.4.2
+decorator==5.1.1
 dill==0.3.8
 exceptiongroup==1.2.0
 executing==2.0.1
 filelock==3.13.4
 frozenlist==1.4.1
-fsspec==2024.3.1
+fsspec==2024.2.0
 huggingface-hub==0.22.2
 idna==3.7
 imageio==2.34.0
@@ -27,7 +26,6 @@ ipykernel==6.29.4
 ipython==8.23.0
 jedi==0.19.1
 Jinja2==3.1.3
-jiwer==3.0.3
 joblib==1.4.0
 jupyter_client==8.6.1
 jupyter_core==5.7.2
@@ -64,8 +62,7 @@ pytz==2024.1
 pywin32==306
 PyYAML==6.0.1
 pyzmq==26.0.0
-rapidfuzz==3.8.1
-regex==2023.12.25
+regex==2024.4.16
 requests==2.31.0
 safetensors==0.4.3
 scikit-learn==1.4.2
@@ -76,13 +73,13 @@ soxr==0.3.7
 stack-data==0.6.3
 sympy==1.12
 threadpoolctl==3.4.0
-tokenizers==0.15.2
+tokenizers==0.19.1
 torch==2.2.2
 torchaudio==2.2.2
 tornado==6.4
 tqdm==4.66.2
 traitlets==5.14.2
-transformers @ git+https://github.com/huggingface/transformers.git@51bcadc10a569847b93a30dbe3a077037ae63bad
+transformers==4.40.0
 typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
