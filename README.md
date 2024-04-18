@@ -13,15 +13,14 @@ source .venv/Scripts/activate
 ```cmd
 .\.venv\Scripts\activate
 ```
+## Install dependencies
+```bash or cmd
+pip install -r requirements.txt
+```
 
 ## Update dependencies
 ```bash or cmd
 pip freeze > requirements.txt
-```
-
-## Install dependencies
-```bash or cmd
-pip install -r requirements.txt
 ```
 
 ## Deactivate the venv

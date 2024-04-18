@@ -1,2 +1,4 @@
 tensorflow-speech-recognition-challenge/
 .venv/
+models/
+dataset/
