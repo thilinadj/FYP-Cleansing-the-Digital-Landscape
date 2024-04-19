@@ -1,4 +1,7 @@
 tensorflow-speech-recognition-challenge/
 .venv/
 models/
-dataset/
+Dataset/
+Dataset-ai/
+real data/
+*\__pycache__
