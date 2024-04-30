@@ -8,9 +8,10 @@ video_dataset_path = r"Dataset\video"
 
 target_length = 41760
 
-test_vid_path = r"TestData\video\Deep Water 2022 1.mp4"
-test_st_aud_path = r"TestData\stereo_audio\Deep Water 2022 1.wav"
-test_mn_aud_path = r"TestData\mono_audio\Deep Water 2022 1.wav"
+test_vid_path = r"TestData\video\pewdiepie angry threat.mp4"
+test_st_aud_path = r"TestData\stereo_audio\pewdiepie angry threat.wav"
+test_mn_aud_path = r"TestData\mono_audio\pewdiepie angry threat.wav"
+test_no_noise_aud_path = r"TestData\noise_removed_audio\pewdiepie angry threat.wav"
 
 prod_vid_path = r"Storage\video"
 prod_st_aud_path = r"Storage\stereo_audio"
