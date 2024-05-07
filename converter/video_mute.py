@@ -6,7 +6,7 @@ def mute_video_part(input_path, output_path, durations):
   
   for index, (start_time, end_time) in enumerate(durations):
     part_to_mute = clip.subclip(start_time, end_time)
-    muted_part = part_to_mute.set_audio(part_to_mute.audio.set_mute(True))
+    muted_part = part_to_mute.volumex(0)
 
     before_part = clip.subclip(0, start_time)
     
