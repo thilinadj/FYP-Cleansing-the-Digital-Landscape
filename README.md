@@ -23,5 +23,3 @@ pip install -r requirements.txt
 ```bash or cmd
 deactivate
 ```
-
-## Run script
