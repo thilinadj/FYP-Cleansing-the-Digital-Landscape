@@ -12,9 +12,12 @@ def cleanser(filename: str, model):
   output_path = os.path.join(UPLOAD_MAIN_FOLDER, "".join([filename, ".mp4"]))
   mp4_to_wav(inputh_path, audio_path)
   to_mono(audio_path, mono_audio_path)
+  os.remove(audio_path)
   noise_reducer(mono_audio_path, noise_removed)
+  os.remove(mono_audio_path)
 
   segments, timestamps = audio_segmenter(audio_path= noise_removed, segment_length_sec= 2.0)
+  os.remove(noise_removed)
 
   mfcc_features = []
   for segment in segments:
@@ -30,4 +33,5 @@ def cleanser(filename: str, model):
       detected.append((int(timestamps_sec[index][0]), int(timestamps_sec[index][1])))
   
   mute_video_part(inputh_path, output_path, detected)
+  os.remove(inputh_path)
   print("cleansing done!")
